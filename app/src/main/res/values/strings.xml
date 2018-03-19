@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Treever tester new</string>
+    <string name="title_home">To Be tested</string>
+    <string name="title_dashboard">Reviewed</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="dialog_connection_off_title">Internet is offline</string>
+    <string name="dialog_connection_off_message">Check your internet connection and try again.</string>
+    <string name="dialog_message_error">Server error please try agian latter</string>
+</resources>
