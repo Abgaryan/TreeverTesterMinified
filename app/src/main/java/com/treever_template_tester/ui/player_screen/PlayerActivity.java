@@ -9,7 +9,7 @@ import android.view.View;
 
 import com.treever_template_tester.R;
 
-public class PlayerActivity extends AppCompatActivity {
+public class PlayerActivity extends AppCompatActivity implements PlayerContract.View {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,4 +28,18 @@ public class PlayerActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    public void showProgress() {
+
+    }
+
+    @Override
+    public void hideProgress() {
+
+    }
+
+    @Override
+    public void showError() {
+
+    }
 }
